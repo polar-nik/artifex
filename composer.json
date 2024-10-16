@@ -1,0 +1,23 @@
+{
+  "name": "polar-nik/artifex",
+  "description": "A convenient wrapper for the GD library, which makes it easier to work with images.",
+  "homepage": "https://github.com/polar-nik/artifex/wiki",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nikolay",
+      "email": "nik@spoob.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "ext-gd": "*",
+    "ext-fileinfo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "PolarNik\\Artifex\\": "src"
+    }
+  }
+}
